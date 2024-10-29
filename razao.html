@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razão</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <style>
+
+        textocentro {
+            justify-content: center;
+            margin-top: 1px;
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+        }
+
+        .card .positive, .card .negative {
+            width: 45%;
+        }
+        .divider {
+            width: 1px;
+            background-color: #ccc;
+            height: auto;
+        }
+        .positive p {
+            color: rgb(0, 255, 0);
+        }
+        .negative p {
+            color: rgb(255, 0, 0);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="menu.html">Menu</a>
+            <a href="lancamento.html">Lançamento</a>
+            <a href="diario.html">Diário</a>
+            <a href="razao.html">Razão</a>
+            <a href="balanco.html">Balancete</a>
+        </nav>
+        <nav class="botaosair">
+            <a href="../html/index.html">Encerrar sessão</a> 
+        </nav>
+    </header>
+
+<textocentro>
+    <h2>RAZONETE</h2>
+
+    <div class="container">
+        <div id="cards-container" class="cards-container">
+            <!-- Cards will be dynamically inserted here -->
+        </div>
+    </div>
+    <script src="../js/controleGanhos.js"></script>
+</textocentro>
+</body>
+</html>

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1C1C1C;
+    color: #fff;
+}
+
+header {
+    background-color: #F5EACE;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinhamento no topo */
+}
+
+.logo img {
+    width: 180px;
+    margin-right: 20px; /* Espaçamento entre logo e informações da empresa */
+}
+
+.company-info {
+    text-align: left;
+    color: black;
+    margin-right: auto; /* Faz a empresa ficar à esquerda */
+}
+
+.user-actions {
+    display: flex;
+    flex-direction: column; /* Organiza "Conta" e "Encerrar" em coluna */
+    align-items: flex-end;
+    margin-right: 100px; /* Ajusta o afastamento da borda direita */
+    margin-top: 30px; /* Afastamento da borda superior */
+}
+
+.user-actions a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    position: relative; /* Adiciona posicionamento relativo para o ícone */
+}
+
+.user-actions a i {
+    margin-right: 8px; /* Espaçamento entre ícone e texto */
+}
+
+main {
+    background-color: #634343;
+    padding: 129px 129px; /* Reduz o padding superior */
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    background-color: #E1B7E1; /* Azul Claro */
+    padding: 80px; /* Mantém o padding */
+    width: 100px; /* Largura original */
+    height: 100px; /* Altura original */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    color: rgb(0, 0, 0); /* Cor do texto alterada para branco */
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Animação suave para todas as propriedades */
+}
+
+.menu-item:hover {
+    transform: translateY(-5px) scale(1.2); /* Levanta um pouco ao passar o mouse */
+    background-color: #F5EACE; /* Cor de fundo ao passar o mouse */
+}
+
+.menu-item p {
+    margin: 0;
+}
